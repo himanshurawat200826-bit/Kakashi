@@ -1,0 +1,13 @@
+name:Disable workflow video 
+
+On:
+    Push:
+    branches:
+
+jobs:
+disable:
+runs-on: ubuntu-latest
+
+Steps:
+-name:Disable[Himanshu]
+run:echo "Disable work flow"
